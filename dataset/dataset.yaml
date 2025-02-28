@@ -1,0 +1,9 @@
+path: /home/eyecode-binh/Fabric_Defect_Detection/dataset  
+train: train #31526 images
+val: val #9008 images      
+test: test #4056 images    
+
+# Classes
+names:
+  0: defective
+  1: good

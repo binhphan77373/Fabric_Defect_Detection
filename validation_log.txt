@@ -1,0 +1,21 @@
+Ultralytics 8.3.55 🚀 Python-3.10.16 torch-2.5.1+cu124 CUDA:0 (NVIDIA GeForce RTX 3060, 11931MiB)
+YOLO11s-cls summary (fused): 112 layers, 5,436,690 parameters, 0 gradients, 12.0 GFLOPs
+[34m[1mtest: [0mScanning /home/eyecode-binh/Fabric_Defect_Detection/dataset/test... 4506 images, 0 corrupt: 100%|██████████| 4506/4506 [00:00<?, ?it/s][34m[1mtest: [0mScanning /home/eyecode-binh/Fabric_Defect_Detection/dataset/test... 4506 images, 0 corrupt: 100%|██████████| 4506/4506 [00:00<?, ?it/s]
+               classes   top1_acc   top5_acc:   0%|          | 0/282 [00:00<?, ?it/s]               classes   top1_acc   top5_acc:   4%|▍         | 12/282 [00:00<00:02, 118.67it/s]               classes   top1_acc   top5_acc:  16%|█▌        | 44/282 [00:00<00:01, 236.31it/s]               classes   top1_acc   top5_acc:  27%|██▋       | 76/282 [00:00<00:00, 273.77it/s]               classes   top1_acc   top5_acc:  39%|███▊      | 109/282 [00:00<00:00, 293.51it/s]               classes   top1_acc   top5_acc:  50%|█████     | 141/282 [00:00<00:00, 302.89it/s]               classes   top1_acc   top5_acc:  62%|██████▏   | 174/282 [00:00<00:00, 309.39it/s]               classes   top1_acc   top5_acc:  73%|███████▎  | 207/282 [00:00<00:00, 313.08it/s]               classes   top1_acc   top5_acc:  85%|████████▍ | 239/282 [00:00<00:00, 315.04it/s]               classes   top1_acc   top5_acc:  96%|█████████▋| 272/282 [00:00<00:00, 317.55it/s]               classes   top1_acc   top5_acc: 100%|██████████| 282/282 [00:00<00:00, 292.66it/s]
+                   all      0.897          1
+Speed: 0.0ms preprocess, 0.2ms inference, 0.0ms loss, 0.0ms postprocess per image
+Results saved to [1mruns/classify/val[0m
+Validation Metrics on Test Set:
+ultralytics.utils.metrics.ClassifyMetrics object with attributes:
+
+confusion_matrix: <ultralytics.utils.metrics.ConfusionMatrix object at 0x7f08406faef0>
+curves: []
+curves_results: []
+fitness: 0.9484021365642548
+keys: ['metrics/accuracy_top1', 'metrics/accuracy_top5']
+results_dict: {'metrics/accuracy_top1': 0.8968042731285095, 'metrics/accuracy_top5': 1.0, 'fitness': 0.9484021365642548}
+save_dir: PosixPath('runs/classify/val')
+speed: {'preprocess': 0.006639581757336788, 'inference': 0.18780415607355883, 'loss': 0.00029482208671857663, 'postprocess': 0.0003899037970260572}
+task: 'classify'
+top1: 0.8968042731285095
+top5: 1.0

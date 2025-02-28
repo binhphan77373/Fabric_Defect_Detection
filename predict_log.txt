@@ -1,0 +1,3 @@
+
+image 1/1 /home/eyecode-binh/Fabric_Defect_Detection/dataset/test/defective/000_patch1-1_3.png: 64x64 defective 0.87, good 0.13, 2.6ms
+Speed: 3.8ms preprocess, 2.6ms inference, 0.0ms postprocess per image at shape (1, 3, 64, 64)
